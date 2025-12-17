@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Script sends SIGTERM to the 7-highlander process using kill and pgrep via xargs.
+
+pgrep -f 7-highlander | xargs kill
